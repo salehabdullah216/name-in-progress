@@ -7,4 +7,4 @@ if [ $# -ne 2 ]; then
 fi
 
 # Run the Python script with the provided input and output files
-python3 convert_nala_to_yay.py "$1" "$2"
+python3 convert_nala_to_yay_with_chatgpt.py "$1" "$2"
